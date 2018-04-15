@@ -1,0 +1,32 @@
+{
+  "name": "bitfumes-jwt-verify",
+  "version": "0.1.0",
+  "description": "Verify JWT( Json Web Token) on your frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfumes/JWTVerify.git"
+  },
+  "keywords": [
+    "JWT",
+    "Verify-JWT",
+    "JSON-Web-Token"
+  ],
+  "author": "Sarthak Shrivastava <bitfumes@gmail.com> (https://bitfumes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfumes/JWTVerify/issues"
+  },
+  "homepage": "https://github.com/bitfumes/JWTVerify#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  },
+  "dependencies": {
+    "atob": "^2.1.0",
+    "mock-local-storage": "^1.0.5"
+  }
+}
